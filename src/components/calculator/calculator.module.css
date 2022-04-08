@@ -1,0 +1,30 @@
+.container label::after {
+    content: ':';
+    margin-right: 0.5ch;
+    margin-left: 0.5ch;
+}
+
+.operation {
+    margin-bottom: 5px;
+}
+
+.operation input {
+    max-width: 5ch;
+}
+
+.operation input:not(:last-child),
+.operation select {
+    margin-right: 10px;
+}
+
+.result {
+    font-size: 1.1rem;
+}
+
+.result button {
+    margin-right: 10px;
+}
+
+.result input {
+    width: 25ch;
+}
